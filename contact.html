@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>My Portfolio</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li><a href="My CV.pdf"Download>Download CV</a></li> -->
+            <button><a href="My CV.pdf" download>Download CV</a></button>
+            <button id="themeToggle" onclick="toggleTheme()">Theme🌙</button>
+
+        </ul>
+    </nav>
+
+    <header>
+        <h2>Hello, I'm Iqbal Qasim</h2>
+        <p id="typing"></p>
+    </header>
+
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Your Message" rows="5"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <!-- <p>Email: iq725227@gmail.com</p> -->
+    </section>
+
+    <section>
+        <h3>You Can Also Visit</h3>
+        <div class="social-links">
+            <p>My Email: <a style="color: blue;" href="">iq725227@gmail.com</a>
+                <br>
+                <br>
+            </p>
+            <h3>My Social Links</h3>
+            <p>Facebook: <a href="https://web.facebook.com/iqbal.qasim.7796" target="_blank">CLick Here</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/iqbalqasim404">Click Here</a></p>
+            <p>Twitter: <a href="https://x.com/Iqbalqasim47">Click Here</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &COPY; 2025 All rights reserved | This website does not collect or store your data | Iqbal Qasim</p>
+        <a href="https://web.facebook.com/qasim1337" target="_blank">
+            <img src="facebook.png" alt="Facebook" width="30px">
+        </a>
+        <a href="https://www.instagram.com/i_qasim404" target="_blank">
+            <img src="instagram.png" alt="Instagram" width="30px">
+        </a>
+        <a href="https://x.com/Iqbalqasim47" target="_blank">
+            <img src="twitter.png" alt="Twitter" width="30px">
+        </a>
+        <a href="https://github.com/qasiim01" target="_blank">
+            <img src="github.png" alt="GitHub" width="30px">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

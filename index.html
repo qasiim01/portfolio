@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>My Portfolio</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a target="_blank" href="about.html">About</a></li>
+            <li><a target="_blank" href="project.html">Projects</a></li>
+            <li><a target="_blank" href="contact.html">Contact</a></li>
+            <!-- <li><a href="My CV.pdf" Download>Download CV</a></li> -->
+            <button><a href="My CV.pdf" download>Download CV</a></button>
+            <button id="themeToggle" onclick="toggleTheme()">Theme🌙</button>
+        </ul>
+    </nav>
+
+    <header>
+        <h2>Hello, I'm Iqbal Qasim</h2>
+        <!-- <p>HTML, CSS and JavaScript Enthusiast | Building my journey step by step</p> -->
+        <p id="typing"></p>
+    </header>
+
+    <section>
+        <h3>About Me</h3>
+        <div class="about">
+            <p>Hello, I'm Iqbal Qasim, a passionate and dedicated web developer based in Pakistan. I've always been
+                intrested in the world of technology and design, which led me to start web development. I love working
+                on websites that not only work well but also look nice... <a href="about.html">Read More</a></p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="project-card">
+            <h4>Personal Portfolio Website</h4>
+            <p>A clean, responsive personal website built using HTML, CSS and JavaScript. I have developed many other
+                websites, if you want to view them all hit the <b>View All Projects</b> below</p>
+            <p style="color: blue;"><i>Project's Video 👇</i>:</p>
+            <p><a href="project.html" style="font-weight: bold; color: #007bff;">
+                    <video src="video-1.mp4" controls></video> View All Projects</a></p>
+        </div>
+    </section>
+
+    <section>
+        <h3>Interested in working together?</h3>
+        <div class="cta-cv">
+            <p>Just click on <b>Contact Me</b> below to be connected, my email address and social
+                links are also given.</p>
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </section>
+
+    <section>
+        <h3>You Can Download My CV Here</h3>
+        <div class="cta">
+            <p>Here is the direct download link of my CV, click and download if you're intrested.</p>
+            <a href="My CV.pdf" download>Download My CV</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &COPY; 2025 All rights reserved | This website does not collect or store your data | Iqbal Qasim
+        </p>
+        <a href="https://web.facebook.com/qasim1337" target="_blank">
+            <img src="facebook.png" alt="Facebook" width="30px">
+        </a>
+        <a href="https://www.instagram.com/i_qasim404" target="_blank">
+            <img src="instagram.png" alt="Instagram" width="30px">
+        </a>
+        <a href="https://x.com/Iqbalqasim47" target="_blank">
+            <img src="twitter.png" alt="Twitter" width="30px">
+        </a>
+        <a href="https://github.com/yourusername" target="_blank">
+            <img src="github.png" alt="GitHub" width="30px">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
