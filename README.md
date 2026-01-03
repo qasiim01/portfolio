@@ -16,4 +16,4 @@ This repository contains my personal portfolio website built to showcase my skil
 https://qasiim01.github.io/portfolio/
 
 ## Author
-Qasim
+Iqbal Qasim
